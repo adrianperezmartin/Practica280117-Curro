@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Lista de productos</string>
+    <string name="botonProductos">Productos</string>
+    <string-array name="arrayProductos">
+        <item>Abrazadera</item>
+        <item>Abrazadera de cremallera</item>
+        <item>Bombilla Halogena</item>
+        <item>Bombilla Led</item>
+        <item>Brida</item>
+        <item>Cable</item>
+        <item>Caja Estanca</item>
+        <item>Canaleta</item>
+        <item>Clema</item>
+        <item>Diferencial</item>
+        <item>Enchufe</item>
+        <item>Enrollacables</item>
+        <item>Halogeno</item>
+        <item>Halogeno Led</item>
+        <item>Interruptor</item>
+        <item>Programador</item>
+        <item>Prolongador</item>
+        <item>Regleta</item>
+        <item>Terminales</item>
+        <item>Termostato Analogico</item>
+        <item>Termostato Digital</item>
+        <item>Tranformador</item>
+        <item>Tubo Flexible</item>
+        <item>Tubo Rigido</item>
+    </string-array>
+</resources>
