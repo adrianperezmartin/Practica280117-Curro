@@ -53,18 +53,12 @@ public class ListaProductosActivity extends Activity {
         Resources resources=this.getResources();
         String[] nombreProductos = resources.getStringArray(R.array.arrayProductos);
 
-        ArrayAdapter<String> aa = new ArrayAdapter<String>(this,R.layout.lista_productos,nombreProductos);
 
         listViewProductos = (ListView)findViewById(R.id.listaProductos);
-        listViewProductos.setAdapter(aa);
+        ProductosAdapter productosAdapter = new ProductosAdapter(this, nombreProductos,LISTA_PRODUCTOS);
+        listViewProductos.setAdapter(productosAdapter);
 
-        //
-        listViewProductos.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int pos, long id) {
 
-            }
-        });
         ;
 
 
